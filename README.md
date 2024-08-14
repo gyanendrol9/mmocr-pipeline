@@ -118,7 +118,9 @@ Currently we support the following datasets:
 
 Supports tasks: "det" and "recog"
 
+```
 To prepare for a new dataset, place the data preparation code in the mmocr-pipeline/dataset_lib folder.
+```
 
 #### prepare params
 If multi is defined and not None, the given images and annotations are used alongside split percentages to get training, testing and validation datasets.
